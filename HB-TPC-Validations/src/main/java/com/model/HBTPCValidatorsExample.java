@@ -16,9 +16,9 @@ public static void main(String[] args) {
 Transaction tr=null;
 ValidatorFactory validatorfactory= Validation.buildDefaultValidatorFactory();
 Validator validator=validatorfactory.getValidator();
-Person p1= new Person("Ruba","4th cross, anna nagar , chennai");
+Person p1= new Person("Ruba","4th cross, Nehru nagar , Dindigul");
 Customer p2=new Customer("JeeviShobi","shobi@gmail.com","9294996298","regular","7th cross, GT street,Karur");
-Employee p3=new Employee("Sri","lead",20000,"25th july 2023","5th cross,Nehru street,erode");
+Employee p3=new Employee("Sri","HR",20000,"25th july 2023","5th cross,Nehru street,Trichy");
 
 Set<ConstraintViolation<Person>> violations;
 
